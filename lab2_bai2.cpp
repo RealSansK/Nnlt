@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main() {
     int player1, player2;
 
@@ -9,14 +8,16 @@ int main() {
     cin >> player1;
     cout << "Nguoi choi 2: ";
     cin >> player2;
-
-    if (player1 == player2) {
+    if ((player1 == 1 && player2 == 1) || (player1 == 2 && player2 == 2) || (player1 == 3 && player2 == 3)) {
         cout << "Hoa nhau!" << endl;
-    } else if ((player1 == 1 && player2 == 3) || (player1 == 2 && player2 == 1) || (player1 == 3 && player2 == 2)) {
+    } 
+    else if ((player1 == 1 && player2 == 3) || (player1 == 2 && player2 == 1) || (player1 == 3 && player2 == 2)) {
         cout << "Nguoi choi 1 thang!" << endl;
-    } else {
+    } 
+    else if ((player2 == 1 && player1 == 3) || (player2 == 2 && player1 == 1) || (player2 == 3 && player1 == 2)) {
         cout << "Nguoi choi 2 thang!" << endl;
-    }
-
+    } else{ cout <<" Loi cu phap nhap";}
+    
     return 0;
+
 }
