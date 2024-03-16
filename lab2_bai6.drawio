@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" modified="2024-03-16T14:26:56.981Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="7Zz4ehhi500Vl1hztmm4" version="24.0.6" type="google">
+  <diagram name="Page-1" id="jJj0RF1CriUue4iSsMyv">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xNuK6DAP8OoAVZ3B_Nqm-6" value="&lt;div&gt;&amp;nbsp;int tinh_so_lan_sinh_nhat(int ngay, int thang, int nam)&lt;/div&gt;&lt;div&gt;Trường hợp đặc biệt: Người sinh 29-2 năm nhuần, giữa 2 lần sinh nhật cách nhau 4 năm&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNuK6DAP8OoAVZ3B_Nqm-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xNuK6DAP8OoAVZ3B_Nqm-7" target="xNuK6DAP8OoAVZ3B_Nqm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNuK6DAP8OoAVZ3B_Nqm-7" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xNuK6DAP8OoAVZ3B_Nqm-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xNuK6DAP8OoAVZ3B_Nqm-8" target="xNuK6DAP8OoAVZ3B_Nqm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNuK6DAP8OoAVZ3B_Nqm-8" value="Input ngay, thang, nam" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="180" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xNuK6DAP8OoAVZ3B_Nqm-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xNuK6DAP8OoAVZ3B_Nqm-10" target="xNuK6DAP8OoAVZ3B_Nqm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNuK6DAP8OoAVZ3B_Nqm-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xNuK6DAP8OoAVZ3B_Nqm-10" target="xNuK6DAP8OoAVZ3B_Nqm-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNuK6DAP8OoAVZ3B_Nqm-10" value="ngay=29 &amp;&amp; thang=2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="270" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xNuK6DAP8OoAVZ3B_Nqm-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xNuK6DAP8OoAVZ3B_Nqm-13" target="xNuK6DAP8OoAVZ3B_Nqm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNuK6DAP8OoAVZ3B_Nqm-13" value="L=2000-nam" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="390" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNuK6DAP8OoAVZ3B_Nqm-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xNuK6DAP8OoAVZ3B_Nqm-15" target="xNuK6DAP8OoAVZ3B_Nqm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNuK6DAP8OoAVZ3B_Nqm-15" value="L=(2000-nam) div 4" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="390" width="164" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNuK6DAP8OoAVZ3B_Nqm-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xNuK6DAP8OoAVZ3B_Nqm-17" target="xNuK6DAP8OoAVZ3B_Nqm-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNuK6DAP8OoAVZ3B_Nqm-17" value="Display L" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xNuK6DAP8OoAVZ3B_Nqm-22" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
