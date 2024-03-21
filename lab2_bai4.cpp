@@ -14,7 +14,7 @@ else{
     x=x-y;
     x=x+y;
     y=x-y;
-    cout<<"Hoan vi cua hai so nguyen lan luot la:"<< x;
+    cout<<"Hoan vi cua hai so nguyen x va y lan luot la:"<< x;
     cout<<", "<< y;
 }
 

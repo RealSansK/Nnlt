@@ -1,22 +1,20 @@
 #include <iostream>
-#include<cmath>
 using namespace std;
-int main() {
-int ngay, thang, nam; float L; 
-cout<<"Nhap ngay thang nam sinh cua ban de tinh so lan sinh nhat\n";
-cout<<"Ngay sinh:";
-cin>>ngay;
-cout<<"Thang sinh:";
-cin>>thang;
-cout<<"Nam sinh:";
-cin>>nam;
 
-if(ngay==29&&thang==2){
- L=(2000-nam)/4;
-}
-else {
-    L=2000-nam;
-}
- cout<<"So lan sinh nhat la:"<<L;
-return 0;
+int main() {
+    int birthYear, currentYear = 1999;
+    cout << "Nhập năm sinh của bạn (1901-1999): ";
+    cin >> birthYear;
+
+    // Kiểm tra năm sinh hợp lệ
+    if (birthYear < 1901 || birthYear > 1999) {
+        cout << "Năm sinh không hợp lệ. Vui lòng nhập lại trong khoảng từ 1901 đến 1999." << endl;
+        return 1;
+    }
+
+    // Tính số lần sinh nhật
+    int age = currentYear - birthYear;
+    cout << "Bạn đã có " << age << " lần sinh nhật." << endl;
+
+    return 0;
 }
