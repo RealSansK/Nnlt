@@ -2,11 +2,11 @@
 using namespace std;
 
 int main() {
-    double income; // Thu nhập cá nhân
-    double taxRate = 0; // Thuế suất
-    double deduction = 0; // Khoản khấu trừ
-    double incomeTax = 0; // Thuế thu nhập cá nhân
-    int dependents; // Số người phụ thuộc
+    double income; 
+    double taxRate = 0;
+    double deduction = 0; 
+    double incomeTax = 0; 
+    int dependents; 
 
     cout << "Nhập thu nhập cá nhân hàng tháng (VND): ";
     cin >> income;
@@ -14,14 +14,14 @@ int main() {
     cout << "Nhập số người phụ thuộc: ";
     cin >> dependents;
 
-    // Xác định khoản khấu trừ
+    
     if (dependents >= 5 && dependents <= 6) {
-        deduction = 10000000; // Tối đa 10 triệu cho 5-6 người phụ thuộc
+        deduction = 10000000; 
     } else {
-        deduction = dependents * 1600000; // 1,6 triệu cho mỗi người phụ thuộc
+        deduction = dependents * 1600000; 
     }
 
-    // Xác định thuế suất dựa trên thu nhập
+
     if (income <= 4000000) {
         taxRate = 0;
     } else if (income <= 6000000) {
@@ -40,7 +40,7 @@ int main() {
         taxRate = 0.35;
     }
 
-    // Tính thuế thu nhập cá nhân
+
     incomeTax = (income - deduction) * taxRate;
 
     cout << "Thu nhập cá nhân hàng tháng: " << income << " VND" << endl;
