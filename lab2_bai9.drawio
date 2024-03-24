@@ -1,0 +1,149 @@
+<mxfile host="app.diagrams.net" modified="2024-03-24T06:13:36.302Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="nValdQbRA3knHgMQHdqZ" version="24.1.0" type="google">
+  <diagram name="Page-1" id="b6U04dmyZrGJA77DWW5h">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TBMW3t0U8tgdsbXDgUnr-1" target="TBMW3t0U8tgdsbXDgUnr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-2" value="Prototype: int tamgiac(int a, b, c)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="10" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TBMW3t0U8tgdsbXDgUnr-3" target="TBMW3t0U8tgdsbXDgUnr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-3" value="Input a, b, c" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-8" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TBMW3t0U8tgdsbXDgUnr-5" target="TBMW3t0U8tgdsbXDgUnr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-12" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TBMW3t0U8tgdsbXDgUnr-5" target="TBMW3t0U8tgdsbXDgUnr-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-5" value="(a + b &gt; c) &amp;&amp; (a + c &gt; b) &amp;&amp; (b + c &gt; a)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-10" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TBMW3t0U8tgdsbXDgUnr-7" target="TBMW3t0U8tgdsbXDgUnr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-14" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TBMW3t0U8tgdsbXDgUnr-7" target="TBMW3t0U8tgdsbXDgUnr-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-7" value="(a == b) &amp;&amp; (b == c)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-18" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TBMW3t0U8tgdsbXDgUnr-9" target="TBMW3t0U8tgdsbXDgUnr-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-22" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TBMW3t0U8tgdsbXDgUnr-9" target="TBMW3t0U8tgdsbXDgUnr-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-9" value="(a == b) || (a == c) || (b == c)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="520" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TBMW3t0U8tgdsbXDgUnr-11" target="TBMW3t0U8tgdsbXDgUnr-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="35" y="1270" />
+              <mxPoint x="400" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-11" value="Display Tam giác Đều" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1099" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TBMW3t0U8tgdsbXDgUnr-20" target="TBMW3t0U8tgdsbXDgUnr-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="1190" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="610" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-13" value="Display Tam giác cân" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1099" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TBMW3t0U8tgdsbXDgUnr-15" target="TBMW3t0U8tgdsbXDgUnr-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="785" y="1270" />
+              <mxPoint x="400" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-15" value="Display Tam giác vuông" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1099" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TBMW3t0U8tgdsbXDgUnr-17" target="TBMW3t0U8tgdsbXDgUnr-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-195" y="1270" />
+              <mxPoint x="400" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-17" value="Display Không tạo thành một&amp;nbsp;&lt;div&gt;tam giác&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="1099" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TBMW3t0U8tgdsbXDgUnr-13" target="TBMW3t0U8tgdsbXDgUnr-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="1180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-20" value="Display Tam giác Vuông cân" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1099" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-24" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TBMW3t0U8tgdsbXDgUnr-21" target="TBMW3t0U8tgdsbXDgUnr-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-26" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TBMW3t0U8tgdsbXDgUnr-21" target="TBMW3t0U8tgdsbXDgUnr-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-21" value="(pow(a, 2) + pow(b, 2) == pow(c, 2)) ||&lt;div&gt;(pow(a, 2) + pow(c, 2) == pow(b, 2)) ||&lt;/div&gt;&lt;div&gt;(pow(b, 2) + pow(c, 2) == pow(a, 2))&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="650" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TBMW3t0U8tgdsbXDgUnr-23" target="TBMW3t0U8tgdsbXDgUnr-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-23" value="Display Tam giác thường" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1099" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-28" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TBMW3t0U8tgdsbXDgUnr-25" target="TBMW3t0U8tgdsbXDgUnr-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="1080" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TBMW3t0U8tgdsbXDgUnr-25" target="TBMW3t0U8tgdsbXDgUnr-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-25" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;(a == b) || (a == c) || (b == c) &amp;amp;&amp;amp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(pow(a, 2) + pow(b, 2) == pow(c, 2)) ||&lt;/span&gt;&lt;div&gt;(pow(a, 2) + pow(c, 2) == pow(b, 2)) ||&lt;/div&gt;&lt;div&gt;(pow(b, 2) + pow(c, 2) == pow(a, 2))&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="840" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="TBMW3t0U8tgdsbXDgUnr-29" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1230" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

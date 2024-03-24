@@ -1,0 +1,176 @@
+<mxfile host="app.diagrams.net" modified="2024-03-24T11:13:33.333Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="5LnHQVz4wXXdkg1tMSbl" version="24.1.0" type="google">
+  <diagram name="Page-1" id="rwV7hBi7Wvcrz0Ms_qj1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-1" value="Prototype: float ThueTNCN(int sel, double income, int depents);&lt;br&gt;/*income:thu nhập, depents: số người phụ thuộc,sel có các giá trị:&lt;br&gt;1: tính thuế từ lợi nhuận kinh doanh, tiền lương, và tiền thù lao (8 mức) có xét gia cảnh&lt;br&gt;2: Lãi vay, lợi tức, thu nhập từ tiền vốn góp kinh doanh, tiền lãi tiết kiệm hơn 5 triệu một tháng (5%)&lt;br&gt;3: Thu nhập từ chuyển nhượng vốn góp (25%)&lt;br&gt;4: Thu nhập từ hoán đổi tài sản (25%)&lt;br&gt;5: Thu nhập từ tiền bản quyền tác giả trên 10 triệu VND/lần (5 %)&amp;nbsp;&lt;br&gt;6: Trúng xổ số, trúng thưởng trên 10 triệu/giải (10%)&lt;br&gt;7: Thu nhập từ thừa kế, quà tặng trị giá 10 triệu/ lần (10%)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="80" width="370" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-2" target="YAYZKw7Z8IYiJOzO-sjz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-3" target="YAYZKw7Z8IYiJOzO-sjz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-3" value="Input income, dependents" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="290" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-8" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-5" target="YAYZKw7Z8IYiJOzO-sjz-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-11" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-5" target="YAYZKw7Z8IYiJOzO-sjz-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-5" value="dependents &gt;= 5 &amp;&amp; dependents &lt;= 6" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="390" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-7" target="YAYZKw7Z8IYiJOzO-sjz-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-7" value="deduction = 10000000" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="540" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-9" target="YAYZKw7Z8IYiJOzO-sjz-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-9" value="deduction = dependents * 1600000" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="540" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-18" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-14" target="YAYZKw7Z8IYiJOzO-sjz-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-30" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-14" target="YAYZKw7Z8IYiJOzO-sjz-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-14" value="income &lt;= 4000000" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="630" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-20" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-17" target="YAYZKw7Z8IYiJOzO-sjz-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-44" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-17" target="YAYZKw7Z8IYiJOzO-sjz-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-17" value="income &lt;= 6000000" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="760" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-22" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-19" target="YAYZKw7Z8IYiJOzO-sjz-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-42" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-19" target="YAYZKw7Z8IYiJOzO-sjz-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-19" value="income &lt;= 9000000" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="890" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-24" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-21" target="YAYZKw7Z8IYiJOzO-sjz-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-41" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-21" target="YAYZKw7Z8IYiJOzO-sjz-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-21" value="income &lt;= 14000000" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1030" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-26" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-23" target="YAYZKw7Z8IYiJOzO-sjz-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-40" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-23" target="YAYZKw7Z8IYiJOzO-sjz-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-23" value="income &lt;= 24000000" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1170" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-28" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-25" target="YAYZKw7Z8IYiJOzO-sjz-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-39" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-25" target="YAYZKw7Z8IYiJOzO-sjz-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-25" value="income &lt;= 44000000" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1300" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-37" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-27" target="YAYZKw7Z8IYiJOzO-sjz-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-38" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-27" target="YAYZKw7Z8IYiJOzO-sjz-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-27" value="income &lt;= 84000000" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1440" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-29" target="YAYZKw7Z8IYiJOzO-sjz-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-29" value="taxRate = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="640" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-31" target="YAYZKw7Z8IYiJOzO-sjz-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-31" value="taxRate = 0.1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="900" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-32" target="YAYZKw7Z8IYiJOzO-sjz-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-32" value="taxRate = 0.15" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1040" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-33" target="YAYZKw7Z8IYiJOzO-sjz-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-33" value="taxRate = 0.2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1180" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-34" target="YAYZKw7Z8IYiJOzO-sjz-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-34" value="taxRate = 0.25" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1310" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-35" target="YAYZKw7Z8IYiJOzO-sjz-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-35" value="taxRate = 0.3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1450" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-36" target="YAYZKw7Z8IYiJOzO-sjz-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-36" value="taxRate = 0.35" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="1570" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-43" target="YAYZKw7Z8IYiJOzO-sjz-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-43" value="taxRate = 0.05" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="770" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-45" target="YAYZKw7Z8IYiJOzO-sjz-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-45" value="incomeTax = (income - deduction) * taxRate" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="1040" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAYZKw7Z8IYiJOzO-sjz-54" target="YAYZKw7Z8IYiJOzO-sjz-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-54" value="Display IncomeTax" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="1020" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YAYZKw7Z8IYiJOzO-sjz-56" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="1030" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
