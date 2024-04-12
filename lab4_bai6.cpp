@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <vector>
 
-// Hàm kiểm tra hai số nguyên tố cùng nhau
+
 bool laNguyenToCungNhau(int a, int b) {
     while (b != 0) {
         int t = a % b;
@@ -11,7 +11,7 @@ bool laNguyenToCungNhau(int a, int b) {
     return a == 1;
 }
 
-// Hàm tạo ma trận các số nguyên tố cùng nhau
+
 std::vector<std::vector<bool>> taoMaTranNguyenToCungNhau(int n) {
     std::vector<std::vector<bool>> maTran(n, std::vector<bool>(n, false));
     for (int i = 1; i <= n; ++i) {
@@ -29,7 +29,7 @@ int main() {
 
     std::vector<std::vector<bool>> maTran = taoMaTranNguyenToCungNhau(n);
 
-    // In ma trận
+   
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
             std::cout << maTran[i][j] << " ";
