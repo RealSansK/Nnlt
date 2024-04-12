@@ -1,18 +1,17 @@
 ﻿#include <iostream>
 using namespace std;
 
-// Hàm tìm ký tự xuất hiện i lần trong chuỗi
+
 char tim_ky_tu(char* chuoi, int i) {
     int dem = 0;
     int len = strlen(chuoi);
 
-    // Kiểm tra tính hợp lệ của i
     if (i <= 0 || i > len) {
         cout << "!" << endl;
         return '!';
     }
 
-    // Tìm ký tự xuất hiện i lần
+ 
     for (int j = 0; j < len; ++j) {
         if (chuoi[j] == chuoi[i - 1]) {
             ++dem;
