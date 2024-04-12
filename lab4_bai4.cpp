@@ -4,10 +4,10 @@ using namespace std;
 int xuat_hien(char* chuoi_hien_tai, char* chuoi_con) {
     char* vi_tri = strstr(chuoi_hien_tai, chuoi_con);
     if (vi_tri != nullptr) {
-        // Tính toán vị trí bằng cách lấy địa chỉ bắt đầu của chuỗi con trừ đi địa chỉ bắt đầu của chuỗi hiện tại
+      
         return vi_tri - chuoi_hien_tai;
     }
-    return -1; // Trả về -1 nếu chuỗi con không xuất hiện
+    return -1; 
 }
 
 int main() {
