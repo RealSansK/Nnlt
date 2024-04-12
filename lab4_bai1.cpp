@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
-// Hàm tính ma trận chuyển vị
+
 void chuyen_vi(int matran[][100], int n) {
     int temp[100][100];
     for (int i = 0; i < n; ++i) {
@@ -10,7 +10,7 @@ void chuyen_vi(int matran[][100], int n) {
         }
     }
 
-    // In ma trận chuyển vị
+
     cout << "Ma tran chuyen vi:\n";
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
