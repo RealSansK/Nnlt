@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
-// Hàm tính tích của hai ma trận
+
 void nhanmatran(int matran1[][100], int matran2[][100], int result[][100], int n) {
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
@@ -35,7 +35,7 @@ int main() {
 
     nhanmatran(matran1, matran2, result, n);
 
-    // In ma trận kết quả
+
     cout << "Ma tran ket qua:\n";
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
